@@ -1,0 +1,60 @@
+name: ragnrock
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  http: ^1.2.2
+
+  # Database
+  objectbox: ^4.0.3
+  objectbox_flutter_libs: ^4.0.3
+
+  # LLM Integration
+  #llama_cpp_dart: ^0.1.0
+  llama_cpp_dart:
+    path: /Users/adel/Workspace/llama_cpp_dart
+
+  # Utilities
+  url_launcher: ^6.3.1
+  html: ^0.15.4
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  get: ^4.7.2
+  file_picker: ^6.2.1
+
+  # UI Components (optional)
+  macos_window_utils: ^1.9.0
+  flutter_markdown: ^0.7.7+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  build_runner: ^2.4.13
+  objectbox_generator: ^4.0.3 # dart run build_runner build
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here
+  assets:
+    - assets/
+
+# dart run flutter_launcher_icons
+flutter_launcher_icons:
+  macos:
+    generate: true
+    image_path_macos: assets/icon.png
