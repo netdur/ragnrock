@@ -2,6 +2,8 @@
 
 **An AI research tool for generating sourced reports using customizable search engines and language models.**
 
+[![Watch the demo on YouTube](https://img.youtube.com/vi/EoM4-k6BV3A/maxresdefault.jpg)](https://www.youtube.com/watch?v=EoM4-k6BV3A "Watch the Ragnrock demo on YouTube")
+
 ![Ragnrock Demo GIF](/assets/logo.png)
 __
 
